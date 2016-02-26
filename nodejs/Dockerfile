@@ -1,5 +1,5 @@
 FROM yeghishe/debian:jessie
-MAINTAINER Yeghishe Piruzyan ypiruzyan@gmai.com
+MAINTAINER Yeghishe Piruzyan ypiruzyan@gmail.com
 
 RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash - && \
     apt-get update && \
